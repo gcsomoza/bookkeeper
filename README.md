@@ -1,5 +1,4 @@
 # Bookkeeper
-Landing page for my simple bookkeeper app for small cooperatives.
+A simple landing page for my dead simple bookkeeper app for small cooperatives.
 
-You can visit my landing page by clicking the link below:
-[Bookkeeper Landing Page](https://gcsomoza.github.io/bookkeeper/)
+Click [here](https://gcsomoza.github.io/bookkeeper/) to visit my simple landing page.
