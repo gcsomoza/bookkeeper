@@ -6,73 +6,84 @@
     <title>Accounting Software for Small Cooperatives | Bookkeeper App</title>
     <link rel="shortcut icon" type="image/ico" href="images/bookkeeper-app.ico"/>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="slideshow.css">
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#download">Download</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
     <header>
-      <h1>Simple Bookkeeping for Small Cooperatives</h1>
+      <h1>Simple Bookkeeping App</h1>
       <p>Stress less from creating trial balance and financial statements.</p>
-      <a href="#download">Try it for Free</a>
+      <br>
+      <p>
+        <a href="#screenshots">Take a look</a>
+        <a href="#contact">Contact me for demo</a>
+      </p>
     </header>
-    <section id="download">
-      <div class="download__container">
-        <h1>Try it free for 1 month</h2>
-        <div class="installers">
-          <h4>Installers</h4>
-          <ul>
-            <li>
-              <a href="https://drive.google.com/uc?export=download&id=1oiDQv7lRd6gGvo8YseCib6QZwazSvBip" target="_newtab">
-                <div class="link">
-                  <img src="images/install-setup-product.svg" class="link__icon"></img> <span class="link__icon-text">Bookkeeper</span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/uc?export=download&id=1MKW_aI8jj6rZyjCSRDCVUSpIMjOgL69y" target="_newtab">
-                <div class="link">
-                  <img src="images/install-setup-product.svg" class="link__icon"></img> <span class="link__icon-text">Bookkeeper Admin</span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://downloads.mariadb.org/interstitial/mariadb-10.1.37/win32-packages/mariadb-10.1.37-win32.msi/from/https%3A//archive.mariadb.org/" target="_newtab">
-                <div class="link">
-                  <img src="images/install-setup-product.svg" class="link__icon"></img> <span class="link__icon-text">Database</span>
-                </div>
-              </a>
-            </li>
-          </ul>
+    <section id="screenshots">
+      <div class="container">
+        <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 8</div>
+          <img src="images/accounting-app/Setup.png" style="width:100%">
+          <div class="text">Caption Text</div>
         </div>
-        <div class="manuals">
-          <h4>Manuals</h4>
-          <ul>
-            <li>
-              <a href="https://drive.google.com/file/d/1JkLF0Vi7UOgzM7QdwRPW9uHzDZiKE4Xt/view?usp=sharing" target="_newtab">
-                <div class="link">
-                  <img src="images/pdf-file.svg" class="link__icon"></img> <span class="link__icon-text">Installation Manual</span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/file/d/1lMJQ_wiNU3VYkT-ANwFPUgRsPnn-oOrX/view?usp=sharing" target="_newtab">
-                <div class="link">
-                  <img src="images/pdf-file.svg" class="link__icon"></img> <span class="link__icon-text">Users Manual</span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="https://drive.google.com/file/d/1nXsSIICpKWqriHyLqXXdKPrOKBIDtm9e/view?usp=sharing" target="_newtab">
-                <div class="link">
-                  <img src="images/pdf-file.svg" class="link__icon"></img> <span class="link__icon-text">Backup and Restore</span>
-                </div>
-              </a>
-            </li>
-          </ul>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 8</div>
+          <img src="images/accounting-app/Accounts.png" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 8</div>
+          <img src="images/accounting-app/OpeningBalance.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 8</div>
+          <img src="images/accounting-app/Journals.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 8</div>
+          <img src="images/accounting-app/GeneralLedger.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">6 / 8</div>
+          <img src="images/accounting-app/TrialBalance.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">7 / 8</div>
+          <img src="images/accounting-app/BalanceSheet.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">8 / 8</div>
+          <img src="images/accounting-app/IncomeStatement.png" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        
+        <div style="margin:1rem 0;text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+          <span class="dot" onclick="currentSlide(7)"></span> 
+          <span class="dot" onclick="currentSlide(8)"></span> 
         </div>
       </div>
     </section>
@@ -110,6 +121,7 @@
       <img src="images/gmail.svg" class="icon"></img> <span class="icon-text">somozagenechristian@gmail.com</span>
     </footer>
   </body>
+  <script src="slideshow.js"></script>
   <script>
     const contact__form = document.getElementById('contact__form');
     

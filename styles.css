@@ -130,49 +130,6 @@ header a:hover {
 }
 
 
-section#download {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #926239;
-  color: #fff;
-}
-
-section#download .download__container {
-  max-width: 400px;
-}
-
-section#download h1 {
-  text-align: center;
-}
-
-section#download li {
-  list-style-type: none;
-  margin-bottom: 8px;
-}
-
-section#download a {
-  text-decoration: none;
-}
-/* unvisited link */
-section#download a:link {
-  color: #fff;
-}
-/* visited link */
-section#download a:visited {
-  color: #fff;
-}
-/* mouse over link */
-section#download a:hover {
-  color: #fff;
-}
-/* selected link */
-section#download a:active {
-  color: #fff;
-}
-
-
 section#contact {
   display: flex;
   flex-direction: column;
